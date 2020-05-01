@@ -4,29 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Our Team</title>
+    <title>Comp585 How Water Thinks</title>
     <style>
         *{
             margin: 0;
             padding: 0;
         }
+
         .header{
             height: 100px;
             background: #34495e;
             padding: 0 20px;
             color: #fff;
         }
+
         .logo {
             line-height: 100px;
             float: left;
             text-transform: uppercase;
             font-size: 30px;
         }
+
         .menu{
             float: right;
             line-height: 100px;
             font-size: 20px;
         }
+
         .menu a {
             color: #fff;
             text-transform: uppercase;
@@ -34,15 +38,23 @@
             padding: 0 10px;
             transition: 0.4s;
         }
+
         .menu a:hover {
             color: #3498db;
         }
+
         .container {
-            font-size: 30px;
-            padding: 20px;
+            background-image: url("./pictures/HowWaterThinksPicture.jpg");
+            min-height: 1200px;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
-        .container span {
-            font-weight: bold;
+
+        .information {
+            text-align: center;
+            font-size: 50px;
+            padding-top: 200px;
+            color: white;
         }
     </style>
 </head>
@@ -55,17 +67,15 @@
             <a href ="schedule.html">Schedule</a>
             <a href ="journal.html">Journal</a>
             <a href ="repo.html">Repository</a>
-            <a href ="video.html">Video</a>
             <a href ="designdoc.html">Design Doc</a>
             <a href ="resources.html">Resources</a>
+
         </ul>
     </div>
     <div class="container">
-        <span>Usefull Links</span>
-        <hr>
-        <a href ="https://github.com/charleshiggins/HowWaterThinks/tree/master">Previous Repository</a>
-        <br>
-        <a href ="http://howwaterthinks585.web.unc.edu/play-the-game/">Previous Game</a>
+        <div class="information">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IGbd6pocICk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 </body>
 </html>
